@@ -10,6 +10,10 @@ class AppDelegate
     trythis = NSAlert.new
     trythis.messageText = "What will show up here?"
     trythis.runModal
+
+    anotherModal = NSAlert.new
+    anotherModal.messageText = "Another modal over here."
+    anotherModal.runModal
   end
 
   def buildWindow
