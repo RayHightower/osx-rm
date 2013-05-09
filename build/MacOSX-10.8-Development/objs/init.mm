@@ -10,7 +10,7 @@ extern "C" {
     void *rb_vm_top_self(void);
     void rb_rb2oc_exc_handler(void);
     void rb_exit(int);
-void MREP_1683B8FEAE0A41E4B25B2C5062EF4497(void *, void *);
+void MREP_C8F8DF66D9F24B7E9198146621A9D3F4(void *, void *);
 void MREP_44C152806995401BAC79037F6D442915(void *, void *);
 }
 
@@ -30,7 +30,7 @@ RubyMotionInit(int argc, char **argv)
 	try {
 #endif
 	    void *self = rb_vm_top_self();
-MREP_1683B8FEAE0A41E4B25B2C5062EF4497(self, 0);
+MREP_C8F8DF66D9F24B7E9198146621A9D3F4(self, 0);
 MREP_44C152806995401BAC79037F6D442915(self, 0);
 #if !__LP64__
 	}

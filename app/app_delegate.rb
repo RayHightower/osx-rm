@@ -11,5 +11,6 @@ class AppDelegate
       defer: false)
     @mainWindow.title = NSBundle.mainBundle.infoDictionary['CFBundleName']
     @mainWindow.orderFrontRegardless
+    @mainWindow.title = "Hello World!"
   end
 end
