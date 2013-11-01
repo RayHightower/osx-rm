@@ -14,6 +14,10 @@ class AppDelegate
     anotherModal = NSAlert.new
     anotherModal.messageText = "Another modal over here."
     anotherModal.runModal
+
+    yetAnotherModal = NSAlert.new
+    yetAnotherModal.messageText = "Yet another modal over here."
+    yetAnotherModal.runModal
   end
 
   def buildWindow
